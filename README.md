@@ -1,11 +1,8 @@
 # Job Portal Project
 
-![Job Portal Logo](https://via.placeholder.com/150)  
-*(Replace this with your logo)*
-
 ## 🚀 Live Demo
 
-[Click here to view the live site](https://your-live-link.com)
+[Click here to view the live site](https://jobportal-frontend-z8ux.onrender.com/)
 
 ---
 
@@ -58,15 +55,15 @@ The **Job Portal** is a web application where users can find jobs, apply for pos
 
 ### 1. Home Page
 ![Home Page](https://res.cloudinary.com/djusmuols/image/upload/Screenshot_2024-10-06_at_3.46.09_PM_khfwv8.png)  
-*(Replace with actual image)*
+
 
 ### 2. Job Listings Page
 ![Job Listings](https://res.cloudinary.com/djusmuols/image/upload/Screenshot_2024-10-06_at_3.50.53_PM_mukx1e.png)  
-*(Replace with actual image)*
+
 
 ### 3. Application Tracking Dashboard
 ![Application Tracking](https://res.cloudinary.com/djusmuols/image/upload/Screenshot_2024-10-06_at_3.52.13_PM_wwfnzz.png)  
-*(Replace with actual image)*
+
 
 ---
 
@@ -79,6 +76,7 @@ To run this project locally, follow these steps:
 - MongoDB installed and running
 
 ### Clone the repository:
+```bash
 git clone https://github.com/your-username/job-portal.git
 cd job-portal
 Install dependencies:
