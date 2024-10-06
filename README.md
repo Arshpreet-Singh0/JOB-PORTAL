@@ -65,57 +65,9 @@ The **Job Portal** is a web application where users can find jobs, apply for pos
 ![Application Tracking](https://res.cloudinary.com/djusmuols/image/upload/Screenshot_2024-10-06_at_3.52.13_PM_wwfnzz.png)  
 
 
----
-
 ## 🧑‍💻 Installation and Setup
 
-To run this project locally, follow these steps:
-
-### Prerequisites:
-- Node.js installed
-- MongoDB installed and running
-
-### Clone the repository:
+### Clone the Repository:
 ```bash
 git clone https://github.com/your-username/job-portal.git
 cd job-portal
-
-#Install dependencies:
-```bash
-Backend:
-cd backend
-npm install
-```bash
-Frontend:
-cd frontend
-npm install
-```bash
-Environment Variables:
-Create a .env file in the backend directory and configure it with the following:
-
-```bash
-.env
-Copy code
-MONGO_URI=your-mongodb-uri
-JWT_SECRET=your-jwt-secret
-CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
-CLOUDINARY_API_KEY=your-cloudinary-api-key
-CLOUDINARY_API_SECRET=your-cloudinary-api-secret
-Running the Project:
-```bash
-Backend:
-Copy code
-cd backend
-npm run dev
-Frontend:
-bash
-Copy code
-cd frontend
-npm start
-The project will now be running at http://localhost:3000.
-```bash
-🤝 Contributing
-Feel free to fork this repository and submit pull requests. For major changes, please open an issue to discuss what you would like to change.
-
-📧 Contact
-For any inquiries, reach out at: arshsomal100@gmail.com
