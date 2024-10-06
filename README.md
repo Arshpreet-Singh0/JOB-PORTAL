@@ -79,21 +79,22 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/your-username/job-portal.git
 cd job-portal
-Install dependencies:
+
+#Install dependencies:
+```bash
 Backend:
-bash
-Copy code
 cd backend
 npm install
+```bash
 Frontend:
-bash
-Copy code
 cd frontend
 npm install
+```bash
 Environment Variables:
 Create a .env file in the backend directory and configure it with the following:
 
-env
+```bash
+.env
 Copy code
 MONGO_URI=your-mongodb-uri
 JWT_SECRET=your-jwt-secret
@@ -101,8 +102,8 @@ CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
 CLOUDINARY_API_KEY=your-cloudinary-api-key
 CLOUDINARY_API_SECRET=your-cloudinary-api-secret
 Running the Project:
+```bash
 Backend:
-bash
 Copy code
 cd backend
 npm run dev
@@ -112,7 +113,7 @@ Copy code
 cd frontend
 npm start
 The project will now be running at http://localhost:3000.
-
+```bash
 🤝 Contributing
 Feel free to fork this repository and submit pull requests. For major changes, please open an issue to discuss what you would like to change.
 
